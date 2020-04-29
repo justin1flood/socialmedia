@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-nav,
+.drop-nav {
+  background-color: #2d4656;
+}
+.main-nav {
+  float: right;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: solid 1px black;
+}
+  .main-nav > li {
+    float: left;
+    border-left: solid 1px black;
+  }
+  .main-nav li:first-child {
+    border-left: none;
+  }
+  .main-nav a {
+    color: #fff;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+.dropdown {
+  position: relative;
+}
+.dropdown:after {
+  content: "\25BC";
+  font-size: .5em;  
+  display: block;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+}
+.drop-nav {
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+.dropdown:hover > .drop-nav {
+  display: block;
+}
+
+a:hover {
+  background-color: #4e6777;
+}
+
+body {
+	margin: 0;
+	background: #1d3646;
+	color: #fff;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+  .main-header:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+.Snapchat1{
+    background-color: fuchsia;
+    width: 500px;
+}
+#media_logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+}
+p{
+    background-color: #2c566a;  
+}
+ol{
+    background-color: #2c566a;
+}
+h3{
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+video{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #476f88;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #476f88;
+}
+.image{
+    float: left;
+    width: auto;
+    height: 600px;
+    padding: 3px;
+}
+.floatleft{
+    float: left;
+    background-color: #2d4656;
+    font-size: 20px;
+}
+.floatright{
+    float: right;
+    background-color: #2d4656;
+    font-size: 20px;
+}
+.header-text{
+    border-bottom: 3px dotted white;
+    overflow: hidden;
+    padding: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #456c9b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+    margin-top: 5px;
+}
+
+input[type=reset] {
+  background-color: #456c9b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #3f268e;
+}
+
+input[type=reset]:hover {
+    background-color: #3f268e;
+}
+.container {
+     position: relative;
+    top: 10px;
+    width: 400px; 
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: montserrat, verdana, sans-serif;
+    background-color: #3f6177;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.heading {
+    clear: both;
+}
+.twitter{
+    float: left;
+    width: 300px;
+    margin-top: 5px;
+}
+a{
+    color: #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+#cdm{
+    float: left;
+    margin-top: -50px;
+    width: 130px;
+}
+.footer-text{
+    border-top: 3px dotted white;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 10px;
+}
+.resource{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
